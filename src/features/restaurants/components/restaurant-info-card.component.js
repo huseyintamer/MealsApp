@@ -3,9 +3,6 @@ import styled from "styled-components/native";
 import { View, Text } from "react-native";
 import { Avatar, Button, Card, Title, Paragraph } from "react-native-paper";
 
-const Titles = styled.Text`
-  padding: 16px;
-`;
 
 export const RestaurantInfoCard = ({ restaurant = {} }) => {
   const {
